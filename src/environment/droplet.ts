@@ -1,5 +1,5 @@
 import "p5";
-import { Vector2D } from "utils/vector";
+import { Vector2D } from "../utils/vector";
 
 /**
  * TODO-1: think about how to destroy an object when

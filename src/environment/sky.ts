@@ -1,7 +1,7 @@
 import { Cloud } from "./cloud";
 import { Cloudiness, Weather } from "../weather/weather";
 import { Environemnt } from "./environment";
-import { drawGradient } from "utils/gradient";
+import { drawGradient } from "../utils/gradient";
 import "p5";
 
 export class Sky {

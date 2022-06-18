@@ -1,9 +1,9 @@
-import { Vector2D } from "utils/vector";
+import { Vector2D } from "../utils/vector";
 import { Sky } from "./sky";
 import { Ground } from "./ground";
-import { Weather } from "weather/weather";
+import { Weather } from "../weather/weather";
 import { Hero } from "../hero/hero";
-import { Obstacle } from "environment/obstacle";
+import { Obstacle } from "../environment/obstacle";
 
 export class Environemnt {
   public static gravity: Vector2D = new Vector2D(0, 1);

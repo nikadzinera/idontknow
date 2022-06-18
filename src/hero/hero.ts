@@ -1,6 +1,6 @@
 import { Weather } from "../weather/weather";
 import { Vector2D } from "../utils/vector";
-import { Environemnt } from "environment/environment";
+import { Environemnt } from "../environment/environment";
 import "p5";
 
 export class Hero {

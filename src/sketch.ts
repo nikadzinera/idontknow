@@ -1,8 +1,8 @@
 import "p5";
-import { Environemnt } from "environment/environment";
-import { WeatherProvider } from "weather/weatherProvider";
-import { Hero } from "hero/hero";
-import { Vector2D } from "utils/vector";
+import { Environemnt } from "./environment/environment";
+import { WeatherProvider } from "./weather/weatherProvider";
+import { Hero } from "./hero/hero";
+import { Vector2D } from "./utils/vector";
 let hero: Hero;
 let environment: Environemnt;
 const weatherProvider = new WeatherProvider();
